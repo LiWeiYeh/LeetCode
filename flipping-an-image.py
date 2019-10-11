@@ -22,7 +22,6 @@ class Solution:
     def flipAndInvertImage(self, A):
         arr1 = []
         
-        # reverses the element of the array
         for element in A:
             index = len(element) - 1
             arr2 = []
